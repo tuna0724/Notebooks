@@ -1,11 +1,13 @@
 # Notebooks
 
 ### 実行環境について
-torchtext==0.11 で実行するべし．\
 GPU のメモリは 30 GB 用意するべし．
 
 ### ライブラリについて
-適宜用意するべし．
+torchtext==0.11 で実行するべし．\
+その他は適宜用意するべし．\
+torchtext をインストールすると，torchtext に合わせた\
+バージョンの pytorch がインストールされるので注意するべし．
 
 ### Language Model について
 spaCy の言語モデルを利用．\
